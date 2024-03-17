@@ -1,0 +1,63 @@
+# Compiled Object files, Static and Dynamic libs (Shared Objects)
+*.o
+*.a
+*.so
+
+# Folders to ignore
+/vendor/
+/data/
+/node_modules/
+
+# Compiled Binary executables
+*.exe
+*.exe~
+*.dll
+*.dylib
+*.out
+/go-replica-db
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite
+
+# OS generated files #
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Editor directories and files
+.idea/
+*.swp
+*.swo
+*~
+.vscode/
+
+# Go specific files
+*.test
+*.test.exe
+*___jb_tmp___*
+*.tmp
+# Binaries for programs and plugins
+bin/
+# Go build
+dist/
+
+# Configuration files
+*.yaml
+*.yml
+*.env
+*.json
+
+# Test binary, built with go test -c
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+# Dependency directories (remove the comment below to include it)
+# vendor/
